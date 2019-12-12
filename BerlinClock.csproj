@@ -50,6 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\BerlinClockFeatureSteps.cs" />
+    <Compile Include="Classes\BlinkRow.cs" />
+    <Compile Include="Classes\FiveHoursRow.cs" />
+    <Compile Include="Classes\FiveMinutesRow.cs" />
+    <Compile Include="Classes\IBerlinClockLamp.cs" />
+    <Compile Include="Classes\BerlinClockRow.cs" />
+    <Compile Include="Classes\OneHourRow.cs" />
+    <Compile Include="Classes\OneMinuteRow.cs" />
+    <Compile Include="Classes\RedLamp.cs" />
+    <Compile Include="Classes\RegularTime.cs" />
+    <Compile Include="Classes\TimeParser.cs" />
+    <Compile Include="Classes\YellowLamp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BDD\BerlinClockFeatureSteps.feature.cs">
       <AutoGen>True</AutoGen>
